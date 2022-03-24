@@ -16,17 +16,17 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CommunitySwiftUI"
-  spec.version      = "0.0.5"
-  spec.summary      = "This sample project for CommunitySwiftUI that will integrate with main project"
+  spec.version      = "0.0.6"
+  spec.summary      = "Sample pod spec for swiftUI"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Sample pod spec for swiftUI"
+  spec.description  = "This sample project for CommunitySwiftUI that will integrate with main project"
 
-  spec.homepage     = "http://EXAMPLE/CommunitySwiftUI"
+  spec.homepage     = "https://github.com/bent18/sample-swiftui"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:bent18/sample-swiftui.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/bent18/sample-swiftui.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
