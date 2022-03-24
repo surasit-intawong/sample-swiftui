@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CommunitySwiftUI"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Sample pod spec for swiftUI"
 
   # This description is used to generate tags and improve search results.
@@ -133,7 +133,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "AmityUIKit", "2.12.1"
-  spec.dependency "Realm", "10.21.1"
+  spec.dependency "SwiftyJSON"
+  # spec.dependency "Realm", "10.21.1"
 
 end
