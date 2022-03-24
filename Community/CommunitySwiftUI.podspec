@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CommunitySwiftUI"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "Sample pod spec for swiftUI"
 
   # This description is used to generate tags and improve search results.
@@ -67,7 +67,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "14.0"
+  spec.ios.deployment_target = "14.3"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
