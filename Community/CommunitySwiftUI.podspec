@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CommunitySwiftUI"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "This sample project for CommunitySwiftUI that will integrate with main project"
 
   # This description is used to generate tags and improve search results.
@@ -63,6 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
+  spec.swift_version = "5"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -104,7 +105,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "Resources/*.png"
+  # spec.resources = "Resources/*.png"
+  spec.resources = "Community/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
